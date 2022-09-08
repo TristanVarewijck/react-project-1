@@ -1,0 +1,21 @@
+.footer {
+    background-color: var(--footer-color);
+    display: flex;
+    align-items: center;
+    height: 65px;
+    margin-top: 40px;
+}
+
+.footer .social-items {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .social-items li {
+    display: flex;
+    align-items: center;
+}

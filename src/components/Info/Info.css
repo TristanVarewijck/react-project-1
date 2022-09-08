@@ -1,0 +1,32 @@
+.info {
+    padding: 0px 35px 0 35px;
+    color: var(--text-color);
+}
+
+.info-container {
+    text-align: center;
+}
+
+.info-container h1,
+h4,
+small {
+    margin: 0px;
+}
+
+.info-container h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.info-container h4 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: var(--small-color);
+}
+.info-container small {
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.87;
+}

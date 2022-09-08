@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --html-color: #23252c;
+  --body-color: #1a1b21;
+  --text-color: #ffffff;
+  --footer-color: #161619;
+  --icon-color: #1e1f26;
+  --icon-bg-color: #918e9b;
+  --small-color: #f3bf99;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: var(--html-color);
+  height: 100vh;
+}
+
+.App-container {
+  width: 317px;
+  background: var(--body-color);
+  margin: 0 auto;
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
